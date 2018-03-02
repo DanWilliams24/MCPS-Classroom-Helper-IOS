@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		16321CC06ACD982BDA496AC4 /* Pods_MYPAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3ADB0B5AEE45CCBECEE49F /* Pods_MYPAppTests.framework */; };
-		26984B7B2035266700E6350F /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 26984B7A2035266700E6350F /* logo.png */; };
+		2697BC442048EAD10002871D /* DataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2697BC432048EAD10002871D /* DataVC.swift */; };
+		2697BC4620499DB20002871D /* JSONStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2697BC4520499DB10002871D /* JSONStructs.swift */; };
 		269A8A4F2033959200E1AAA3 /* Product Sans Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 269A8A4B2033959100E1AAA3 /* Product Sans Bold.ttf */; };
 		269A8A502033959200E1AAA3 /* Product Sans Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 269A8A4C2033959100E1AAA3 /* Product Sans Italic.ttf */; };
 		269A8A512033959200E1AAA3 /* Product Sans Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 269A8A4D2033959100E1AAA3 /* Product Sans Bold Italic.ttf */; };
 		269A8A522033959200E1AAA3 /* Product Sans Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 269A8A4E2033959200E1AAA3 /* Product Sans Regular.ttf */; };
 		269A8A59203396A600E1AAA3 /* Nexa Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 269A8A57203396A500E1AAA3 /* Nexa Bold.otf */; };
 		269A8A5A203396A600E1AAA3 /* Nexa Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 269A8A58203396A500E1AAA3 /* Nexa Light.otf */; };
-		269A8A5C2033D68300E1AAA3 /* iPhoneBP.png in Resources */ = {isa = PBXBuildFile; fileRef = 269A8A5B2033D68200E1AAA3 /* iPhoneBP.png */; };
 		26C04915201EBC1F00D3F5D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C04914201EBC1F00D3F5D5 /* AppDelegate.swift */; };
 		26C04917201EBC1F00D3F5D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C04916201EBC1F00D3F5D5 /* ViewController.swift */; };
 		26C0491A201EBC1F00D3F5D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26C04918201EBC1F00D3F5D5 /* Main.storyboard */; };
@@ -51,14 +51,14 @@
 /* Begin PBXFileReference section */
 		1467DDEEFA4B3807A953DBF2 /* Pods-MYPApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYPApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MYPApp/Pods-MYPApp.debug.xcconfig"; sourceTree = "<group>"; };
 		1CF4C9550BC12B1C093DA98B /* Pods_MYPAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYPAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		26984B7A2035266700E6350F /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../logo.png; sourceTree = "<group>"; };
+		2697BC432048EAD10002871D /* DataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataVC.swift; sourceTree = "<group>"; };
+		2697BC4520499DB10002871D /* JSONStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONStructs.swift; sourceTree = "<group>"; };
 		269A8A4B2033959100E1AAA3 /* Product Sans Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Product Sans Bold.ttf"; path = "../../../Downloads/product-sans/Product Sans Bold.ttf"; sourceTree = "<group>"; };
 		269A8A4C2033959100E1AAA3 /* Product Sans Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Product Sans Italic.ttf"; path = "../../../Downloads/product-sans/Product Sans Italic.ttf"; sourceTree = "<group>"; };
 		269A8A4D2033959100E1AAA3 /* Product Sans Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Product Sans Bold Italic.ttf"; path = "../../../Downloads/product-sans/Product Sans Bold Italic.ttf"; sourceTree = "<group>"; };
 		269A8A4E2033959200E1AAA3 /* Product Sans Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Product Sans Regular.ttf"; path = "../../../Downloads/product-sans/Product Sans Regular.ttf"; sourceTree = "<group>"; };
 		269A8A57203396A500E1AAA3 /* Nexa Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nexa Bold.otf"; path = "../../../Downloads/nexa/Nexa Bold.otf"; sourceTree = "<group>"; };
 		269A8A58203396A500E1AAA3 /* Nexa Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nexa Light.otf"; path = "../../../Downloads/nexa/Nexa Light.otf"; sourceTree = "<group>"; };
-		269A8A5B2033D68200E1AAA3 /* iPhoneBP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPhoneBP.png; path = ../../../iPhoneBP.png; sourceTree = "<group>"; };
 		26C04911201EBC1F00D3F5D5 /* MYPApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MYPApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26C04914201EBC1F00D3F5D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26C04916201EBC1F00D3F5D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -157,11 +157,11 @@
 				26C04914201EBC1F00D3F5D5 /* AppDelegate.swift */,
 				26C04918201EBC1F00D3F5D5 /* Main.storyboard */,
 				26C0491E201EBC1F00D3F5D5 /* Assets.xcassets */,
-				26984B7A2035266700E6350F /* logo.png */,
-				269A8A5B2033D68200E1AAA3 /* iPhoneBP.png */,
 				26C04920201EBC1F00D3F5D5 /* LaunchScreen.storyboard */,
 				26C04923201EBC1F00D3F5D5 /* Info.plist */,
 				26C0491B201EBC1F00D3F5D5 /* MYPApp.xcdatamodeld */,
+				2697BC432048EAD10002871D /* DataVC.swift */,
+				2697BC4520499DB10002871D /* JSONStructs.swift */,
 			);
 			path = MYPApp;
 			sourceTree = "<group>";
@@ -316,12 +316,10 @@
 				269A8A512033959200E1AAA3 /* Product Sans Bold Italic.ttf in Resources */,
 				26C04922201EBC1F00D3F5D5 /* LaunchScreen.storyboard in Resources */,
 				269A8A4F2033959200E1AAA3 /* Product Sans Bold.ttf in Resources */,
-				269A8A5C2033D68300E1AAA3 /* iPhoneBP.png in Resources */,
 				26C04946201EC2AF00D3F5D5 /* GoogleService-Info.plist in Resources */,
 				269A8A522033959200E1AAA3 /* Product Sans Regular.ttf in Resources */,
 				269A8A5A203396A600E1AAA3 /* Nexa Light.otf in Resources */,
 				26C0491F201EBC1F00D3F5D5 /* Assets.xcassets in Resources */,
-				26984B7B2035266700E6350F /* logo.png in Resources */,
 				26C0491A201EBC1F00D3F5D5 /* Main.storyboard in Resources */,
 				269A8A59203396A600E1AAA3 /* Nexa Bold.otf in Resources */,
 				269A8A502033959200E1AAA3 /* Product Sans Italic.ttf in Resources */,
@@ -438,16 +436,18 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MYPApp/Pods-MYPApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/Just/Just.framework",
+				"${BUILT_PRODUCTS_DIR}/JSONJoy-Swift/JSONJoy.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Just.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONJoy.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,6 +509,8 @@
 			files = (
 				26C04917201EBC1F00D3F5D5 /* ViewController.swift in Sources */,
 				26C04915201EBC1F00D3F5D5 /* AppDelegate.swift in Sources */,
+				2697BC4620499DB20002871D /* JSONStructs.swift in Sources */,
+				2697BC442048EAD10002871D /* DataVC.swift in Sources */,
 				26C0491D201EBC1F00D3F5D5 /* MYPApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

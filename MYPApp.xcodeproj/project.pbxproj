@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		16321CC06ACD982BDA496AC4 /* Pods_MYPAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D3ADB0B5AEE45CCBECEE49F /* Pods_MYPAppTests.framework */; };
 		2697BC442048EAD10002871D /* DataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2697BC432048EAD10002871D /* DataVC.swift */; };
-		2697BC4620499DB20002871D /* JSONStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2697BC4520499DB10002871D /* JSONStructs.swift */; };
+		2697BC4620499DB20002871D /* Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2697BC4520499DB10002871D /* Sample.swift */; };
+		2697BC482049CDD50002871D /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2697BC472049CDD50002871D /* Course.swift */; };
 		269A8A4F2033959200E1AAA3 /* Product Sans Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 269A8A4B2033959100E1AAA3 /* Product Sans Bold.ttf */; };
 		269A8A502033959200E1AAA3 /* Product Sans Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 269A8A4C2033959100E1AAA3 /* Product Sans Italic.ttf */; };
 		269A8A512033959200E1AAA3 /* Product Sans Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 269A8A4D2033959100E1AAA3 /* Product Sans Bold Italic.ttf */; };
@@ -52,7 +53,8 @@
 		1467DDEEFA4B3807A953DBF2 /* Pods-MYPApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MYPApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MYPApp/Pods-MYPApp.debug.xcconfig"; sourceTree = "<group>"; };
 		1CF4C9550BC12B1C093DA98B /* Pods_MYPAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MYPAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2697BC432048EAD10002871D /* DataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataVC.swift; sourceTree = "<group>"; };
-		2697BC4520499DB10002871D /* JSONStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONStructs.swift; sourceTree = "<group>"; };
+		2697BC4520499DB10002871D /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		2697BC472049CDD50002871D /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		269A8A4B2033959100E1AAA3 /* Product Sans Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Product Sans Bold.ttf"; path = "../../../Downloads/product-sans/Product Sans Bold.ttf"; sourceTree = "<group>"; };
 		269A8A4C2033959100E1AAA3 /* Product Sans Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Product Sans Italic.ttf"; path = "../../../Downloads/product-sans/Product Sans Italic.ttf"; sourceTree = "<group>"; };
 		269A8A4D2033959100E1AAA3 /* Product Sans Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Product Sans Bold Italic.ttf"; path = "../../../Downloads/product-sans/Product Sans Bold Italic.ttf"; sourceTree = "<group>"; };
@@ -161,7 +163,8 @@
 				26C04923201EBC1F00D3F5D5 /* Info.plist */,
 				26C0491B201EBC1F00D3F5D5 /* MYPApp.xcdatamodeld */,
 				2697BC432048EAD10002871D /* DataVC.swift */,
-				2697BC4520499DB10002871D /* JSONStructs.swift */,
+				2697BC4520499DB10002871D /* Sample.swift */,
+				2697BC472049CDD50002871D /* Course.swift */,
 			);
 			path = MYPApp;
 			sourceTree = "<group>";
@@ -507,9 +510,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2697BC482049CDD50002871D /* Course.swift in Sources */,
 				26C04917201EBC1F00D3F5D5 /* ViewController.swift in Sources */,
 				26C04915201EBC1F00D3F5D5 /* AppDelegate.swift in Sources */,
-				2697BC4620499DB20002871D /* JSONStructs.swift in Sources */,
+				2697BC4620499DB20002871D /* Sample.swift in Sources */,
 				2697BC442048EAD10002871D /* DataVC.swift in Sources */,
 				26C0491D201EBC1F00D3F5D5 /* MYPApp.xcdatamodeld in Sources */,
 			);
